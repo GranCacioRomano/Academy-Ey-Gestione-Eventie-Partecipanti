@@ -10,9 +10,9 @@ public class Evento {
     private StatoEvento statoEvento;
     private List<Partecipante> partecipanteList;
 
-    public Evento(String nome, StatoEvento statoEvento, List<Partecipante> partecipanteList) {
+    public Evento(String nome) {
         this.nome = nome;
-        this.statoEvento = statoEvento;
+        this.statoEvento = new InProgramma();
         this.partecipanteList = new ArrayList<>();
     }
 
@@ -25,5 +25,17 @@ public class Evento {
         for(Partecipante partecipante : partecipanteList){
             partecipante.aggiorna(messaggio);
         }
+    }
+
+    public void setStatoEvento(StatoEvento statoEvento){
+        this.statoEvento = statoEvento;
+    }
+
+    public StatoEvento getStatoEvento(){
+        return statoEvento;
+    }
+
+    public String getNome(){
+        return nome;
     }
 }
