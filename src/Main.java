@@ -13,7 +13,6 @@ public class Main {
 
         evento.cambiaStato();
         evento.cambiaStato();
-        evento.cambiaStato();
 
     }
 }

@@ -10,7 +10,7 @@ public class Evento {
     private StatoEvento statoEvento;
     private List<Partecipante> partecipanteList;
 
-    public Evento(String nome, StatoEvento statoEvento, List<Partecipante> partecipanteList) {
+    public Evento(String nome) {
         this.nome = nome;
         this.statoEvento = new InProgramma();
         this.partecipanteList = new ArrayList<>();
