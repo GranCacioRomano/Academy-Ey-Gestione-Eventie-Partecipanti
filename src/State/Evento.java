@@ -1,3 +1,5 @@
+package State;
+
 import observer.Partecipante;
 
 import java.util.ArrayList;
