@@ -8,4 +8,10 @@ public class InProgramma implements StatoEvento{
         evento.notificaPartecipante("State.Evento programmato");
         evento.setStato(new InCorso());
     }
+
+    @Override
+    public String getStato()
+    {
+        return "In Programma";
+    }
 }

@@ -8,4 +8,10 @@ public class InCorso implements StatoEvento{
         evento.notificaPartecipante("Evento in corso");
         evento.setStato(new Terminato());
     }
+
+    @Override
+    public String getStato()
+    {
+        return "In Corso";
+    }
 }

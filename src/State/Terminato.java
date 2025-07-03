@@ -8,4 +8,10 @@ public class Terminato implements StatoEvento {
     {
         evento.notificaPartecipante("State.Evento terminato");
     }
+
+    @Override
+    public String getStato()
+    {
+        return "Terminato";
+    }
 }
