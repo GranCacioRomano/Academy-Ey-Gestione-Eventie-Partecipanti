@@ -12,7 +12,7 @@ public class Evento {
 
     public Evento(String nome, StatoEvento statoEvento, List<Partecipante> partecipanteList) {
         this.nome = nome;
-        this.statoEvento = statoEvento;
+        this.statoEvento = new InProgramma();
         this.partecipanteList = new ArrayList<>();
     }
 
@@ -25,5 +25,22 @@ public class Evento {
         for(Partecipante partecipante : partecipanteList){
             partecipante.aggiorna(messaggio);
         }
+    }
+
+    public void setStato(StatoEvento nuovoStato)
+    {
+        statoEvento = nuovoStato;
+    }
+
+    public void cambiaStato()
+    {
+        System.out.println("Stato attuale: " + getStato());
+        statoEvento.cambiaStato(this);
+        System.out.println("Nuovo stato: " +  getStato());
+    }
+
+    public String getStato()
+    {
+        return  statoEvento.getStato();
     }
 }
