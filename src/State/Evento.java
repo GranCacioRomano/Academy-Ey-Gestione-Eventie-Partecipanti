@@ -34,9 +34,8 @@ public class Evento {
 
     public void cambiaStato()
     {
-        System.out.println("Stato attuale: " + getStato());
+        System.out.println("Stato evento: " + getStato());
         statoEvento.cambiaStato(this);
-        System.out.println("Nuovo stato: " +  getStato());
     }
 
     public String getStato()

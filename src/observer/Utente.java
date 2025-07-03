@@ -13,6 +13,6 @@ public class Utente implements Partecipante{
 
     @Override
     public void aggiorna(String messaggio) {
-        System.out.println("Notifica" + messaggio + "a [" + nome + "]");
+        System.out.println("Notifica " + messaggio + " a [" + nome + "]");
     }
 }
