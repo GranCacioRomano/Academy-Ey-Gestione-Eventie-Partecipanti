@@ -1,4 +1,6 @@
 package EsercizioNumero2.factory;
 
-public class PagamentoFactory {
+public abstract class PagamentoFactory {
+
+    public abstract IPagamento creaPagamento();
 }
