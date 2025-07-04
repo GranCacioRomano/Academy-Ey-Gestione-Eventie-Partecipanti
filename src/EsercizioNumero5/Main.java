@@ -2,8 +2,12 @@ package EsercizioNumero5;
 
 public class Main {
     public static void main(String[] args) {
-        // facade..
+        LoginFacade loginFacade = new LoginFacade();
 
-        System.out.println();
+        System.out.println(loginFacade.eseguiLogin("password","utente","123"));
+        System.out.println(loginFacade.eseguiLogin("social","utente","SOCIAL"));
+        System.out.println(loginFacade.eseguiLogin("token","utente","TOKEN123"));
+
+        System.out.println(loginFacade.eseguiLogin("token","utente","TOKEN1243")); // falsa per test
     }
 }
