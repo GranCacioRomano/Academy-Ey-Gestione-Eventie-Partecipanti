@@ -23,4 +23,9 @@ public class ProfiloUtente {
     public StatoUtente getStatoUtente() {
         return statoUtente;
     }
+
+    public void mostraStato() {
+        statoUtente.mostraStato();
+    }
+
 }
