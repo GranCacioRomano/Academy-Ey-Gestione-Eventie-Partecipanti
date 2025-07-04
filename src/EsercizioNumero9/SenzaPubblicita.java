@@ -8,7 +8,7 @@ public class SenzaPubblicita extends PianoDecorator {
 
     @Override
     public String getDescrizione() {
-        return pianoAbbonamento.getDescrizione() + "Senza pubblicità";
+        return pianoAbbonamento.getDescrizione() + ", Senza pubblicità";
     }
 
     @Override
