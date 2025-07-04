@@ -1,4 +1,4 @@
-package EsercizioNumero3.state;
+package EsercizioNumero3;
 
 public interface FaseUtente {
 }
