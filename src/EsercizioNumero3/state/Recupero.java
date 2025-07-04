@@ -13,7 +13,7 @@ public class Recupero implements StatoUtente {
     @Override
     public String mostraStato()
     {
-        return "A riposo";
+        return "In recupero";
     }
 
 

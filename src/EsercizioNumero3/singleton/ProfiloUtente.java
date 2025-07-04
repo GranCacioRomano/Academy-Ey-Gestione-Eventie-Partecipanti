@@ -27,8 +27,12 @@ public class ProfiloUtente {
         return statoUtente;
     }
 
-    public void mostraStato() {
-        statoUtente.mostraStato();
+    public String mostraStato() {
+        return statoUtente.mostraStato();
+    }
+
+    public void prossimoStato() {
+        statoUtente.prossimoStato(this);
     }
 
 }
