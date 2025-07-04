@@ -1,15 +1,16 @@
 package EsercizioNumero4.observer;
 
-public class Allarme implements Disposivo {
+
+public class Postazione implements Disposivo{
     String nome;
 
-    public Allarme(String nome) {
+    public Postazione(String nome) {
         this.nome = nome;
     }
 
     @Override
     public void notifica(String messaggio) {
-        System.out.println("L'Allarme riceve la notifica di " + messaggio);
+        System.out.println("Il sensore riceve la notifica di " + messaggio);
 
     }
 
