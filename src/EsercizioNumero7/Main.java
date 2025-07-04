@@ -7,7 +7,6 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        // Testi disponibili
         Testo base = new TestoBase("Marco è il mas grande");
         Testo decoratoreCorsivo = new DecoratoreCorsivo(base);
         Testo decoratoreSottolineato = new DecoratoreSottolineato(base);
