@@ -7,4 +7,10 @@ public class Riposo implements StatoUtente {
     {
         utente.setStato(new Allenamento);
     }
+
+    @Override
+    public String mostraStato()
+    {
+        return "A riposo";
+    }
 }

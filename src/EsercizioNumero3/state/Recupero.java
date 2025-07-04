@@ -7,4 +7,12 @@ public class Recupero implements StatoUtente {
     {
         utente.setStato(new Riposo);
     }
+
+    @Override
+    public String mostraStato()
+    {
+        return "A riposo";
+    }
+
+
 }

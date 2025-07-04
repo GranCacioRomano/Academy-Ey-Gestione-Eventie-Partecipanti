@@ -7,4 +7,10 @@ public class Allenamento implements StatoUtente {
     {
         utente.setStato(new Recupero);
     }
+
+    @Override
+    public String mostraStato()
+    {
+        return "In allenamento";
+    }
 }
