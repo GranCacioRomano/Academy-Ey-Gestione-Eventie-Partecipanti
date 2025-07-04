@@ -1,5 +1,6 @@
 package EsercizioNumero2;
 
+import EsercizioNumero2.facade.SistemaCheckout;
 import EsercizioNumero2.factory.CartaFactory;
 import EsercizioNumero2.factory.CryptoFactory;
 import EsercizioNumero2.factory.PagamentoFactory;
@@ -9,7 +10,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-
+        SistemaCheckout sistemaCheckout = new SistemaCheckout();
         Scanner scanner = new Scanner(System.in);
         double importo = 10.00;
 
@@ -34,7 +35,7 @@ public class Main {
             }
 
             if (factory != null) {
-                // inserire qui il sistema di checkout .eseguiPagamento(factory, importo);
+                sistemaCheckout.eseguiPagamento(factory, importo);
                 System.out.println();
             }
 
