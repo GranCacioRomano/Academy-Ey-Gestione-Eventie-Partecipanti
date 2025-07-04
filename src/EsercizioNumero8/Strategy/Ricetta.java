@@ -1,4 +1,4 @@
-package EsercizioNumero8;
+package EsercizioNumero8.Strategy;
 
 public class Ricetta {
     private String nome;
