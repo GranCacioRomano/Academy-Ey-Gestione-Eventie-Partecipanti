@@ -10,6 +10,7 @@ public class Main {
         ProfiloUtente profiloUtente = ProfiloUtente.getInstance();
 
         int scelta;
+        profiloUtente.mostraStato();
 
         do {
             System.out.println("App di Fitness con Monitoraggio Stato Utente");
