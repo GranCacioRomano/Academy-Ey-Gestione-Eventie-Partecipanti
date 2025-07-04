@@ -1,4 +1,4 @@
-package EsercizioNumero2.factory;
+package EsercizioNumero2.facade;
 
 public class SistemaCheckout {
 }
