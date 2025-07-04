@@ -1,6 +1,6 @@
-package observer;
+package EsercizioNumero6.observer;
 
-public class Utente implements Partecipante{
+public class Utente implements Partecipante {
     String nome;
 
     public Utente(String nome) {

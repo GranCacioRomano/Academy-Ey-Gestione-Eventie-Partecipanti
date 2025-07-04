@@ -1,6 +1,6 @@
-package State;
+package EsercizioNumero6.State;
 
-public class InProgramma implements StatoEvento{
+public class InProgramma implements StatoEvento {
 
     @Override
     public void cambiaStato(Evento evento)

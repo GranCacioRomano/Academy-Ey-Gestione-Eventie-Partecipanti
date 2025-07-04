@@ -1,5 +1,7 @@
-import State.Evento;
-import observer.Utente;
+package EsercizioNumero6;
+
+import EsercizioNumero6.State.Evento;
+import EsercizioNumero6.observer.Utente;
 
 public class Main {
     public static void main(String[] args) {

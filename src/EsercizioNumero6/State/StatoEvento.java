@@ -1,4 +1,4 @@
-package State;
+package EsercizioNumero6.State;
 
 public interface StatoEvento {
 

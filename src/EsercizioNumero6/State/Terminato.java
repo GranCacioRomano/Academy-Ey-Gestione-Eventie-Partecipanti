@@ -1,6 +1,4 @@
-package State;
-
-import State.StatoEvento;
+package EsercizioNumero6.State;
 
 public class Terminato implements StatoEvento {
     @Override
