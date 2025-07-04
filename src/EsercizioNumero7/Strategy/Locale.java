@@ -4,6 +4,6 @@ public class Locale implements StrategiaSalvataggio{
 
     @Override
     public void salvataggio(String content) {
-        System.out.println("Salvato in locale" + content);
+        System.out.println("Salvato in locale " + content);
     }
 }
