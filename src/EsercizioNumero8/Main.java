@@ -1,8 +1,6 @@
 package EsercizioNumero8;
 
-import EsercizioNumero8.Strategy.ControlloRicetta;
-import EsercizioNumero8.Strategy.ControlloVegano;
-import EsercizioNumero8.Strategy.Ricetta;
+import EsercizioNumero8.Strategy.*;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -18,17 +16,19 @@ public class Main {
         ricette.add(new Ricetta("Pollo alla griglia con crema di avocado",true, false));
         ricette.add(new Ricetta("Insalata di avocado e cetrioli",true, true));
 
-        ControlloRicetta controlloRicetta;
+        ControlloRicetta controlloRicetta = new ControlloKeto();
         System.out.println("Ricette Keto:");
         for (Ricetta ricetta: controlloRicetta.controllo(ricette)){
             System.out.println(ricetta);
         }
 
+        controlloRicetta = new ControlloVegano();
         System.out.println("Ricette Vegana:");
         for (Ricetta ricetta: controlloRicetta.controllo(ricette)){
             System.out.println(ricetta);
         }
 
+        controlloRicetta = new ControlloNormale();
         System.out.println("Tutte le ricette:");
         for (Ricetta ricetta: controlloRicetta.controllo(ricette)){
             System.out.println(ricetta);
