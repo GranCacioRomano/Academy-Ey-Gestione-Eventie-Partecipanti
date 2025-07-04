@@ -1,6 +1,9 @@
 package EsercizioNumero2;
 
+import EsercizioNumero2.factory.CartaFactory;
+import EsercizioNumero2.factory.CryptoFactory;
 import EsercizioNumero2.factory.PagamentoFactory;
+import EsercizioNumero2.factory.PayPalFactory;
 
 import java.util.Scanner;
 
@@ -25,7 +28,7 @@ public class Main {
             switch (scelta) {
                 case 1 -> factory = new CartaFactory();
                 case 2 -> factory = new PayPalFactory();
-                case 3 -> factory = new CriptoFactory();
+                case 3 -> factory = new CryptoFactory();
                 case 0 -> System.out.println("Uscita.");
                 default -> System.out.println("Scelta non valida.");
             }
@@ -38,8 +41,5 @@ public class Main {
         } while (scelta != 0);
 
         scanner.close();
-    }
-}
-
     }
 }

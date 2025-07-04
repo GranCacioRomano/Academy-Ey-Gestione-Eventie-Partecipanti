@@ -3,7 +3,7 @@ package EsercizioNumero2.factory;
 public class PayPalFactory extends PagamentoFactory{
 
     @Override
-    public IPagamento creaPagamento()
+    public MetodoPagamento creaPagamento()
     {
         return new PayPal();
     }
