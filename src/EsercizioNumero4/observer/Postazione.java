@@ -1,6 +1,6 @@
 package EsercizioNumero4.observer;
 
-public class Postazione implements Disposivo{
+public class Postazione implements DispositivoObserver {
     String nome;
 
     public Postazione(String nome) {

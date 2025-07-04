@@ -1,6 +1,6 @@
 package EsercizioNumero4.observer;
 
-public interface Disposivo {
+public interface DispositivoObserver {
     void notifica(String messaggio);
     String getNome();
 }

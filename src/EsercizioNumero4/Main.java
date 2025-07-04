@@ -1,18 +1,24 @@
 package EsercizioNumero4;
 
+import EsercizioNumero4.adapter.Modem;
+import EsercizioNumero4.adapter.SmartAdapter;
 import EsercizioNumero4.observer.*;
 
 public class Main {
     public static void main(String[] args) {
-        Observer o = new Observer();
+        Subject o = new Subject();
 
-        Disposivo luce = new Luce("Luce Ingresso");
-        Disposivo allarme = new Allarme("Allarme porta");
-        Disposivo postazione = new Postazione("Postazione Lavoro");
+        DispositivoObserver luce = new Luce("Luce Ingresso");
+        DispositivoObserver allarme = new Allarme("Allarme porta");
+        DispositivoObserver postazione = new Postazione("Postazione Lavoro");
+        Modem modem = new Modem();
+
+        DispositivoObserver modem1 = new SmartAdapter("Adattatore", modem);
 
         o.aggiungiDispositivo(luce);
         o.aggiungiDispositivo(allarme);
         o.aggiungiDispositivo(postazione);
+        o.aggiungiDispositivo(modem1);
 
         o.segnalaEvento("Arrivo a casa!");
 
