@@ -1,6 +1,5 @@
 package EsercizioNumero4.observer;
 
-
 public class Postazione implements Disposivo{
     String nome;
 
