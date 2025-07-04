@@ -1,6 +1,9 @@
 package EsercizioNumero3;
 
 import EsercizioNumero3.singleton.ProfiloUtente;
+import EsercizioNumero3.state.Allenamento;
+import EsercizioNumero3.state.Recupero;
+import EsercizioNumero3.state.Riposo;
 
 import java.util.Scanner;
 
@@ -24,9 +27,9 @@ public class Main {
             scelta = scanner.nextInt();
 
             switch (scelta) {
-                case 1 -> profiloUtente.setStato(new StatoRiposo());
-                case 2 -> profiloUtente.setStato(new StatoAllenamento());
-                case 3 -> profiloUtente.setStato(new StatoRecupero());
+                case 1 -> profiloUtente.setStato(new Riposo());
+                case 2 -> profiloUtente.setStato(new Allenamento());
+                case 3 -> profiloUtente.setStato(new Recupero());
                 case 0 -> System.out.println("Uscita dall'app.");
                 default -> System.out.println("Scelta non valida.");
             }

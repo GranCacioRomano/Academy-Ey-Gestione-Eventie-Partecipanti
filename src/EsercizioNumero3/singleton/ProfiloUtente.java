@@ -1,15 +1,18 @@
 package EsercizioNumero3.singleton;
 
 
+import EsercizioNumero3.state.Riposo;
+import EsercizioNumero3.state.StatoUtente;
+
 public class ProfiloUtente {
     private static ProfiloUtente instance;
     private StatoUtente statoUtente;
 
     private ProfiloUtente(){
-        statoUtente = new StatoRiposo();
+        statoUtente = new Riposo();
     }
 
-    private static ProfiloUtente getInstance(){
+    public static ProfiloUtente getInstance(){
         if (instance == null){
             instance = new ProfiloUtente();
         }
