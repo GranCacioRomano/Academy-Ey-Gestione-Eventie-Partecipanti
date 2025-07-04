@@ -1,6 +1,6 @@
 package EsercizioNumero6.State;
 
-import EsercizioNumero6.observer.Partecipante;
+import EsercizioNumero6.Observer.Partecipante;
 
 import java.util.ArrayList;
 import java.util.List;

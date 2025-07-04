@@ -1,5 +1,7 @@
 package EsercizioNumero5;
 
+import EsercizioNumero5.Facade.LoginFacade;
+
 public class Main {
     public static void main(String[] args) {
         LoginFacade loginFacade = new LoginFacade();

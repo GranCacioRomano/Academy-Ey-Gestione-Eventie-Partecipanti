@@ -1,6 +1,6 @@
 package EsercizioNumero3;
 
-import EsercizioNumero3.singleton.ProfiloUtente;
+import EsercizioNumero3.Singleton.ProfiloUtente;
 
 public class Main {
     public static void main(String[] args) {

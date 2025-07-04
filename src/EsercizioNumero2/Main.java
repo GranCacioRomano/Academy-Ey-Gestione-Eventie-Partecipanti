@@ -1,10 +1,10 @@
 package EsercizioNumero2;
 
-import EsercizioNumero2.facade.SistemaCheckout;
-import EsercizioNumero2.factory.CartaFactory;
-import EsercizioNumero2.factory.CryptoFactory;
-import EsercizioNumero2.factory.PagamentoFactory;
-import EsercizioNumero2.factory.PayPalFactory;
+import EsercizioNumero2.Facade.SistemaCheckout;
+import EsercizioNumero2.Factory.CartaFactory;
+import EsercizioNumero2.Factory.CryptoFactory;
+import EsercizioNumero2.Factory.PagamentoFactory;
+import EsercizioNumero2.Factory.PayPalFactory;
 
 import java.util.Scanner;
 

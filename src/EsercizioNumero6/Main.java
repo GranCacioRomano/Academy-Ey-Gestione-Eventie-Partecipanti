@@ -1,7 +1,7 @@
 package EsercizioNumero6;
 
 import EsercizioNumero6.State.Evento;
-import EsercizioNumero6.observer.Utente;
+import EsercizioNumero6.Observer.Utente;
 
 public class Main {
     public static void main(String[] args) {

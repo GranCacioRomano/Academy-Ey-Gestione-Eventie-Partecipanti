@@ -1,8 +1,8 @@
 package EsercizioNumero4;
 
-import EsercizioNumero4.adapter.Modem;
-import EsercizioNumero4.adapter.SmartAdapter;
-import EsercizioNumero4.observer.*;
+import EsercizioNumero4.Adapter.Modem;
+import EsercizioNumero4.Adapter.SmartAdapter;
+import EsercizioNumero4.Observer.*;
 
 public class Main {
     public static void main(String[] args) {

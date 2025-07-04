@@ -1,6 +1,6 @@
 package EsercizioNumero7;
 
-import EsercizioNumero7.decoratori.*;
+import EsercizioNumero7.Decorator.*;
 import EsercizioNumero7.Strategy.*;
 
 import java.util.Scanner;

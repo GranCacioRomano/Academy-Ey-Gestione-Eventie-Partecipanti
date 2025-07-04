@@ -1,7 +1,7 @@
 package EsercizioNumero7;
 
 import EsercizioNumero7.Strategy.StrategiaSalvataggio;
-import EsercizioNumero7.decoratori.Testo;
+import EsercizioNumero7.Decorator.Testo;
 
 public class EditorDiTesto {
     private Testo testo;

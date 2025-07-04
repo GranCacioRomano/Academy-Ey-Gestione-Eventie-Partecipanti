@@ -1,5 +1,8 @@
 package EsercizioNumero9;
 
+import EsercizioNumero9.Decorator.*;
+import EsercizioNumero9.Singleton.GestoreAbbonamento;
+
 import java.util.Scanner;
 
 public class Main {
@@ -59,7 +62,7 @@ public class Main {
         scanner.close();
     }
 
-    private static PianoAbbonamento creaAbbonamentoPersonalizzato(Scanner scanner) {
+    private static EsercizioNumero9.Decorator.PianoAbbonamento creaAbbonamentoPersonalizzato(Scanner scanner) {
         PianoAbbonamento piano = new PianoBase();
         int scelta;
 
