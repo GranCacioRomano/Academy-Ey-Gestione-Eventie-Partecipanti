@@ -13,7 +13,7 @@ public class GestoreAbbonamento {
     public static GestoreAbbonamento getInstance()
     {
         if(instance == null)
-            retrun new GestoreAbbonamento();
+            return new GestoreAbbonamento();
 
         return instance;
     }

@@ -8,7 +8,7 @@ public class Qualita4K extends PianoDecorator{
 
     @Override
     public String getDescrizione() {
-        return pianoAbbonamento.getDescrizione() + "Qualità 4k";
+        return pianoAbbonamento.getDescrizione() + ", Qualità 4k";
     }
 
     @Override

@@ -16,7 +16,7 @@ public class Main {
 
         int scelta;
         do {
-            System.out.println("=== Checkout E-commerce ===");
+            System.out.println("Sistema di Pagamento E-commerce");
             System.out.println("1) Paga con Carta di Credito");
             System.out.println("2) Paga con PayPal");
             System.out.println("3) Paga con Criptovalute");

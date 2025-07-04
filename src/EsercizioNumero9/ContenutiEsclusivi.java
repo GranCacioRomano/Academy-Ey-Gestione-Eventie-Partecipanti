@@ -7,7 +7,7 @@ public class ContenutiEsclusivi extends PianoDecorator{
 
     @Override
     public String getDescrizione() {
-        return pianoAbbonamento.getDescrizione() + "Contenuti esclusivi";
+        return pianoAbbonamento.getDescrizione() + ", Contenuti esclusivi";
     }
 
     @Override

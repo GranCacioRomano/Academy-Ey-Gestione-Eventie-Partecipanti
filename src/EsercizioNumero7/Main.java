@@ -23,7 +23,7 @@ public class Main {
         int scelta;
 
         do {
-            System.out.println("EDITOR DI TESTO CON PLUGIN");
+            System.out.println("Editor di Testo con Plugin Aggiuntivi");
             System.out.println("1) Testo base");
             System.out.println("2) Testo in corsivo");
             System.out.println("3) Testo sottolineato");
